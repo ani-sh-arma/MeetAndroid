@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".shoppingActivity"
+    android:background="#DFE2E4"
+    android:paddingTop="10dp"
+    >
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/section_1"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        app:cardCornerRadius="12dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            >
+
+            <TextView
+                android:id="@+id/med_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="84dp"
+
+                android:fontFamily="cursive"
+                android:text="Sustain Clothing"
+                android:textColor="#22201E"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.501"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginVertical="0dp"
+
+                android:layout_marginTop="4dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/logo_5" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="30sp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/corner_image"
+                android:padding="4dp"
+                android:id="@+id/logout"
+                android:text="Logout"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.953"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/blogs"
+                android:layout_width="80dp"
+                android:layout_height="30sp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/corners"
+                android:padding="4dp"
+                android:text="Blogs"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.084"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/section_2"
+
+        android:layout_marginVertical="0dp"
+        android:layout_marginHorizontal="0dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/section_1"
+        android:padding="20dp"
+        app:cardCornerRadius="1dp"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:background="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                >
+
+
+                <LinearLayout
+                    android:id="@+id/meditation_row_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginVertical="20dp"
+                        android:layout_marginHorizontal="30dp"
+                        app:cardCornerRadius="8dp"
+                        android:id="@+id/mindfullness_meditation_btn"
+                        >
+
+                        <RelativeLayout
+                            android:background="#BED5E1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_centerHorizontal="true"
+                            >
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_marginTop="5dp"
+                                android:id="@+id/card_img_1"
+                                android:layout_centerHorizontal="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                app:cardCornerRadius="4dp">
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="110dp"
+                                android:src="@drawable/tshirt_1"
+                                />
+                            </androidx.cardview.widget.CardView>
+
+                            <TextView
+                                android:textStyle="bold"
+                                android:layout_marginVertical="6dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Mind T-ShirtPrice : $250"
+                                android:textSize="10sp"
+                                android:textColor="@color/white"
+                                android:background="@drawable/corners"
+                                android:padding="4dp"
+                                android:layout_below="@id/card_img_1"
+                                android:layout_centerHorizontal="true"
+                                android:textAlignment="center" />
+                        </RelativeLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginVertical="20dp"
+                        android:layout_marginHorizontal="20dp"
+                        app:cardCornerRadius="8dp"
+                        android:id="@+id/transcedental_meditation_btn"
+
+                        >
+
+
+
+                        <RelativeLayout
+                            android:background="#BED5E1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_centerHorizontal="true"
+                            >
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_marginTop="5dp"
+                                android:id="@+id/card_img_2"
+                                android:layout_centerHorizontal="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                app:cardCornerRadius="4dp">
+                                <ImageView
+                                    android:layout_width="140dp"
+                                    android:layout_height="110dp"
+                                    android:src="@drawable/tshirt_2"
+                                    />
+                            </androidx.cardview.widget.CardView>
+
+                            <TextView
+                                android:textStyle="bold"
+                                android:layout_marginVertical="6dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Supra T-ShirtPrice : $250"
+                                android:textSize="10sp"
+                                android:textColor="@color/white"
+                                android:background="@drawable/corners"
+                                android:padding="4dp"
+                                android:layout_below="@id/card_img_2"
+                                android:layout_centerHorizontal="true"
+                                android:textAlignment="center" />
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/meditation_row_2"
+                    android:layout_below="@+id/meditation_row_1"
+                    >
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginVertical="20dp"
+                        android:layout_marginHorizontal="30dp"
+                        app:cardCornerRadius="8dp"
+                        android:id="@+id/chakra_meditation_btn"
+
+                        >
+
+                        <RelativeLayout
+                            android:background="#BED5E1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_centerHorizontal="true"
+                            >
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_marginTop="5dp"
+                                android:id="@+id/card_img_3"
+                                android:layout_centerHorizontal="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                app:cardCornerRadius="4dp">
+                                <ImageView
+                                    android:layout_width="140dp"
+                                    android:layout_height="110dp"
+                                    android:src="@drawable/tshirt_3"
+                                    />
+                            </androidx.cardview.widget.CardView>
+
+                            <TextView
+                                android:textStyle="bold"
+                                android:layout_marginVertical="6dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Shine T-ShirtPrice : $250"
+                                android:textSize="10sp"
+                                android:textColor="@color/white"
+                                android:background="@drawable/corners"
+                                android:padding="4dp"
+                                android:layout_below="@id/card_img_3"
+                                android:layout_centerHorizontal="true"
+                                android:textAlignment="center" />
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginVertical="20dp"
+                        android:layout_marginHorizontal="20dp"
+                        app:cardCornerRadius="8dp"
+                        android:id="@+id/breathing_meditation_btn"
+
+                        >
+
+                        <RelativeLayout
+                            android:background="#BED5E1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_centerHorizontal="true"
+                            >
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_marginTop="5dp"
+                                android:id="@+id/card_img_4"
+                                android:layout_centerHorizontal="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                app:cardCornerRadius="4dp">
+                                <ImageView
+                                    android:layout_width="140dp"
+                                    android:layout_height="110dp"
+                                    android:src="@drawable/tshirt_4"
+                                    />
+                            </androidx.cardview.widget.CardView>
+
+                            <TextView
+                                android:textStyle="bold"
+                                android:layout_marginVertical="6dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Kuzume T-ShirtPrice : $250"
+                                android:textSize="10sp"
+                                android:textColor="@color/white"
+                                android:background="@drawable/corners"
+                                android:padding="4dp"
+                                android:layout_below="@id/card_img_4"
+                                android:layout_centerHorizontal="true"
+                                android:textAlignment="center" />
+                        </RelativeLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/meditation_row_3"
+                    android:layout_below="@+id/meditation_row_2"
+                    >
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginVertical="20dp"
+                        android:layout_marginHorizontal="30dp"
+                        app:cardCornerRadius="8dp"
+                        android:id="@+id/zen_meditation_btn"
+
+                        >
+
+                        <RelativeLayout
+                            android:background="#BED5E1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_centerHorizontal="true"
+                            >
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_marginTop="5dp"
+                                android:id="@+id/card_img_5"
+                                android:layout_centerHorizontal="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                app:cardCornerRadius="4dp">
+                                <ImageView
+                                    android:layout_width="140dp"
+                                    android:layout_height="110dp"
+                                    android:src="@drawable/tshirt_5"
+                                    />
+                            </androidx.cardview.widget.CardView>
+
+                            <TextView
+                                android:textStyle="bold"
+                                android:layout_marginVertical="6dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Wearus T-ShirtPrice : $250"
+                                android:textSize="10sp"
+                                android:textColor="@color/white"
+                                android:background="@drawable/corners"
+                                android:padding="4dp"
+                                android:layout_below="@id/card_img_5"
+                                android:layout_centerHorizontal="true"
+                                android:textAlignment="center" />
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginVertical="20dp"
+                        android:layout_marginHorizontal="20dp"
+                        app:cardCornerRadius="8dp"
+
+
+                        >
+
+                        <RelativeLayout
+                            android:background="#BED5E1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_centerHorizontal="true"
+                            >
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_marginTop="5dp"
+                                android:id="@+id/card_img_6"
+                                android:layout_centerHorizontal="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                app:cardCornerRadius="4dp">
+                                <ImageView
+                                    android:layout_width="140dp"
+                                    android:layout_height="110dp"
+                                    android:src="@drawable/tshirt_6"
+                                    />
+                            </androidx.cardview.widget.CardView>
+
+                            <TextView
+                                android:textStyle="bold"
+                                android:layout_marginVertical="6dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Shine T-ShirtPrice : $250"
+                                android:textSize="10sp"
+                                android:textColor="@color/white"
+                                android:background="@drawable/corners"
+                                android:padding="4dp"
+                                android:layout_below="@id/card_img_6"
+                                android:layout_centerHorizontal="true"
+                                android:textAlignment="center" />
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/meditation_row_4"
+                    android:orientation="horizontal"
+                    android:layout_below="@+id/meditation_row_3"
+                    >
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginVertical="20dp"
+                        android:layout_marginHorizontal="30dp"
+                        app:cardCornerRadius="8dp"
+                        android:id="@+id/productivity_meditation_btn"
+
+                        >
+
+                        <RelativeLayout
+                            android:background="#BED5E1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_centerHorizontal="true"
+                            >
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_marginTop="5dp"
+                                android:id="@+id/card_img_7"
+                                android:layout_centerHorizontal="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                app:cardCornerRadius="4dp">
+                                <ImageView
+                                    android:layout_width="140dp"
+                                    android:layout_height="110dp"
+                                    android:src="@drawable/tshirt_7"
+                                    />
+                            </androidx.cardview.widget.CardView>
+
+                            <TextView
+                                android:textStyle="bold"
+                                android:layout_marginVertical="6dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Wanderer T-ShirtPrice : $250"
+                                android:textSize="10sp"
+                                android:textColor="@color/white"
+                                android:background="@drawable/corners"
+                                android:padding="4dp"
+                                android:layout_below="@id/card_img_7"
+                                android:layout_centerHorizontal="true"
+                                android:textAlignment="center" />
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginVertical="20dp"
+                        android:layout_marginHorizontal="20dp"
+                        app:cardCornerRadius="8dp"
+
+
+                        >
+
+                        <RelativeLayout
+                            android:background="#BED5E1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_centerHorizontal="true"
+                            >
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_marginTop="5dp"
+                                android:id="@+id/card_img_8"
+                                android:layout_centerHorizontal="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                app:cardCornerRadius="4dp">
+                                <ImageView
+                                    android:layout_width="140dp"
+                                    android:layout_height="110dp"
+                                    android:src="@drawable/tshirt_8"
+                                    />
+                            </androidx.cardview.widget.CardView>
+
+                            <TextView
+                                android:textStyle="bold"
+                                android:layout_marginVertical="6dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Duck T-ShirtPrice : $250"
+                                android:textSize="10sp"
+                                android:textColor="@color/white"
+                                android:background="@drawable/corners"
+                                android:padding="4dp"
+                                android:layout_below="@id/card_img_8"
+                                android:layout_centerHorizontal="true"
+                                android:textAlignment="center" />
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+
+
+
+
+            </RelativeLayout>
+
+        </ScrollView>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+</RelativeLayout>

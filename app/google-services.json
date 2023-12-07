@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "217178624077",
+    "project_id": "fir-demo-3c2a7",
+    "storage_bucket": "fir-demo-3c2a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217178624077:android:f987201699310565c58c04",
+        "android_client_info": {
+          "package_name": "com.shutter.firebasedemo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRszb2XYNz9OO_xdnScUJbQ3NB2nM4nVw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

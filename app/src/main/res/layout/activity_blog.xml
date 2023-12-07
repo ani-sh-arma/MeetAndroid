@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".shoppingActivity"
+    android:background="#DFE2E4"
+    android:paddingTop="10dp"
+    >
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/section_1"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        app:cardCornerRadius="12dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            >
+
+            <TextView
+                android:id="@+id/med_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="84dp"
+
+                android:fontFamily="cursive"
+                android:text="Sustain Clothing Blogs"
+                android:textColor="#22201E"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.501"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginVertical="0dp"
+
+                android:layout_marginTop="4dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/logo_5" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="30sp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/corner_image"
+                android:padding="4dp"
+                android:id="@+id/logout"
+                android:text="Logout"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.953"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/shop"
+                android:layout_width="80dp"
+                android:layout_height="30sp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/corners"
+                android:padding="4dp"
+                android:text="Shop"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.084"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/section_2"
+
+        android:layout_marginVertical="0dp"
+        android:layout_marginHorizontal="0dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/section_1"
+        android:padding="20dp"
+        app:cardCornerRadius="1dp"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:background="#FFFFFF"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="10dp"
+                    android:paddingTop="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/blog_item"
+                        android:orientation="vertical"
+                        android:id="@+id/layout1"
+                        android:layout_marginBottom="10dp"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Title-1"
+                            android:textSize="24sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="command to create a file in windows 112 / 2ChatGPTIn Windows 11, you can create a new file using several methods, including the File Explorer or the Command Prompt. Here are two ways to create a file using the Command Prompt:Using the echo command:
+Open the Command Prompt and use the echo command to create a new file. For example, to create a text file named example.txt, you can use the following command:"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/blog_item"
+                        android:padding="10dp"
+                        android:orientation="vertical"
+                        android:layout_below="@+id/layout1"
+                        android:id="@+id/layout2"
+                        android:layout_marginBottom="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Title-2"
+                            android:textSize="24sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="command to create a file in windows 112 / 2ChatGPTIn Windows 11, you can create a new file using several methods, including the File Explorer or the Command Prompt. Here are two ways to create a file using the Command Prompt:Using the echo command:
+Open the Command Prompt and use the echo command to create a new file. For example, to create a text file named example.txt, you can use the following command:"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/blog_item"
+                        android:padding="10dp"
+                        android:orientation="vertical"
+                        android:layout_below="@+id/layout2"
+                        android:id="@+id/layout3"
+                        android:layout_marginBottom="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Title-3"
+                            android:textSize="24sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="command to create a file in windows 112 / 2ChatGPTIn Windows 11, you can create a new file using several methods, including the File Explorer or the Command Prompt. Here are two ways to create a file using the Command Prompt:Using the echo command:
+Open the Command Prompt and use the echo command to create a new file. For example, to create a text file named example.txt, you can use the following command:"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/blog_item"
+                        android:padding="10dp"
+                        android:orientation="vertical"
+                        android:layout_below="@+id/layout3"
+                        android:id="@+id/layout4"
+                        android:layout_marginBottom="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Title-4"
+                            android:textSize="24sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="command to create a file in windows 112 / 2ChatGPTIn Windows 11, you can create a new file using several methods, including the File Explorer or the Command Prompt. Here are two ways to create a file using the Command Prompt:Using the echo command:
+Open the Command Prompt and use the echo command to create a new file. For example, to create a text file named example.txt, you can use the following command:"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/blog_item"
+                        android:padding="10dp"
+                        android:orientation="vertical"
+                        android:layout_below="@+id/layout4"
+                        android:id="@+id/layout5"
+                        android:layout_marginBottom="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Title-5"
+                            android:textSize="24sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="command to create a file in windows 112 / 2ChatGPTIn Windows 11, you can create a new file using several methods, including the File Explorer or the Command Prompt. Here are two ways to create a file using the Command Prompt:Using the echo command:
+Open the Command Prompt and use the echo command to create a new file. For example, to create a text file named example.txt, you can use the following command:"
+                            />
+
+                    </LinearLayout>
+
+
+
+
+                </RelativeLayout>
+
+            </ScrollView>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+</RelativeLayout>
